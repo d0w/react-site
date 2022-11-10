@@ -7,7 +7,7 @@ body {
   font: 300 11px/1.4 'Helvetica Neue', 'Helvetica', 'sans-serif';
   color: #444;
   background: #022c43;
-  overflow: hidden;
+  overflow: hidden; /* TURN OFF IF YOU WANT SCROLLING */
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
