@@ -2,7 +2,6 @@ import { React, useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
-import Logo from './Logo'
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -35,7 +34,7 @@ const Home = () => {
                 <h2>Data Scientist / Software Engineer / Student</h2>
                 <Link to="/contact" className='flat-button'>CONTACT</Link>
             </div>
-            <Logo />
+            {/* <Logo /> */}
         </div>
     )
 }
