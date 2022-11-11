@@ -1,20 +1,39 @@
 .logo-container {
     z-index: 0;
-    width: 400px;
-    height: 609px;
+    // width: 500px;
+    // height: 809px;
+    width: 500px;
+    height:1200px;
     position: absolute;
     top: 0;
-    right: 15%;
+    right: 20%;
     bottom: 0;
     left: auto;
     margin: auto;
     opacity: 0;
+    //display:none;
+    @media screen and (max-width:700px) {
+        right: 0%;
+    }
+
 
     svg {
+        animation-name: flicker;
+        animation-timing-function: step-end;
+        animation-iteration-count: 1;
+        animation-duration: 10s;
+        @media screen and (max-width: 700px) {
+            position: absolute;
+            bottom: 25%;
+            width: 60%;
+            left: 25%;
+            right: auto;
+        }
         width: 100%;
         height: auto;
         bottom: 0;
-        transform: rotateZ(30deg) !important;
+        transform: rotateZ(-90deg) !important;
+        overflow: visible;
     }
 
     .solid-logo {
@@ -26,6 +45,7 @@
         margin: auto;
         width: 100%;
         opacity: 0;
+        display:none;
         transform: rotateZ(30deg);
         z-index: 0;
     }
@@ -33,5 +53,42 @@
 
 .svg-container {
     stroke: #ffd700;
-    stroke-width: 10px;
+    stroke-width: 5px;
+}
+
+@keyframes flicker {
+    from,
+    to {
+        opacity: 0.5;
+    }
+    0% {
+        opacity: 0.5;
+    }
+    35% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 1;
+    }
+    77% {
+        opacity: 0.5;
+    }
+    79% {
+        opacity: 1;
+    }
+    81% {
+        opacity: 0.5;
+    }
+    85% {
+        opacity: 0.5;
+    }
+    88% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
 }

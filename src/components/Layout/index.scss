@@ -41,6 +41,7 @@
 }
 
 .about-page {
+    overflow: auto;
     .text-zone {
         position: absolute;
         left: 10%;
@@ -85,7 +86,7 @@
             }
         }
         p {
-            font-size: 13px;
+            font-size: 18px;
             color: #fff;
             font-family: sans-serif;
             // font-family: sans-serif;
