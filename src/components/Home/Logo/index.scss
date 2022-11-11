@@ -10,11 +10,13 @@
     bottom: 0;
     left: auto;
     margin: auto;
-    opacity: 0;
+    opacity: 0.6;
     //display:none;
     @media screen and (max-width:700px) {
         right: 0%;
     }
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
 
 
     svg {
