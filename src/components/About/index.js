@@ -9,6 +9,7 @@ import { faAngular,
      faHtml5,
      faReact,
      faGitAlt } from '@fortawesome/free-brands-svg-icons'
+import Loader from 'react-loaders';
 
 
 const About = () => {
@@ -22,6 +23,7 @@ const About = () => {
 
     const aboutArray = ['A','b','o','u','t',' ','m','e'];
     return(
+        <>
         <div className = 'container about-page'>
             <div className="text-zone">
                 <h1>
@@ -58,6 +60,8 @@ const About = () => {
                 </div>
             </div>
         </div>
+        <Loader type="pacman" />
+    </>
     )
 }
 
