@@ -4,6 +4,7 @@ import { useEffect, useRef } from 'react'
 import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
 import gsap from 'gsap'
 
+
 const Logo = () => {
 
     const bgRef = useRef();

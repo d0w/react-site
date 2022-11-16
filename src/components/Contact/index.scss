@@ -1,0 +1,133 @@
+// styling in layout page
+.contact-form {
+    width:100%;
+    margin-top: 20px;
+    //display: flex;
+
+    ul {
+
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: row;
+        li {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            margin-bottom: 10px;
+            overflow: hidden;
+            //display: block;
+            //flex-wrap: wrap;
+            opacity: 0;
+             //position: relative;
+            animation: fadeInUp 2s 2s;
+            animation-fill-mode: forwards;
+            clear: both;
+        }
+
+        li.half {
+            //display: flex;
+            width: 100%;
+            margin-left: 0%;
+            margin-right: auto;
+            clear: none;
+
+            &:nth-child(1) {
+                width: 48%;
+                
+            }
+            &:nth-child(2) {
+                width: 48%;
+                margin-right: 0;
+            }
+        }
+    }
+
+    input[type='text'],
+    input[type='email'] {
+        width: 100%;
+        border: 0;
+        background: #372948;
+        height: 50px;
+        font-size: 16px;
+        color: #fff;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    textarea {
+        width: 100%;
+        border: 0;
+        background: #372948;
+        height: 50px;
+        font-size: 16px;
+        color: #fff;
+        padding: 20px;
+        min-height: 150px;
+        box-sizing: border-box;
+    }
+
+    .flat-button {
+        color: #FFCACA;
+        //position: absolute;
+        background: 0 0;
+        font: 11px;
+        letter-spacing: 3px;
+        text-decoration: none;
+        padding: 8px 10px;
+        border: 1px solid #FFCACA;
+        border-radius: 4px;
+        //align-content: right;
+        &:hover {
+            background: #FFCACA;
+            color: #333;
+        }
+    }
+    
+}
+
+.info-map {
+    position: absolute;
+    background-color: black;
+    top: 50px;
+    right: 30%;
+    z-index: 999999;
+    width: 267px;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Helvetica';
+    font-size: 17px;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1s 1.5s;
+    animation-fill-mode: forwards;
+    
+    span {
+        font-size: 16px;
+        display: block;
+        padding-top: 20px;
+        color: #FFCACA;
+    }
+}
+
+.map-wrap  {
+    background: rgba(8, 253, 216, 0.1);
+    width: 53%;
+    margin-right: 0;
+    margin-left: auto;
+    width: 53%;
+    height: 100%;
+}
+
+.leaflet-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 0;
+    animation: backInRight 1s 1.2s;
+    animation-fill-mode: forwards;
+}
+

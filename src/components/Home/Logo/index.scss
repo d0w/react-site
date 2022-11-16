@@ -10,7 +10,7 @@
     bottom: 0;
     left: auto;
     margin: auto;
-    opacity: 0.6;
+    opacity: 0;
     //display:none;
     @media screen and (max-width:700px) {
         right: 0%;
@@ -54,7 +54,7 @@
 }
 
 .svg-container {
-    stroke: #ffd700;
+    stroke: #FFCACA;
     stroke-width: 5px;
 }
 

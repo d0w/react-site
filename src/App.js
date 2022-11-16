@@ -7,6 +7,9 @@ import Contact from './components/Contact'
 
 // layout is a componenet
 //REMOVE GSAP-TRIAL BEFORE BUILDS AND CHANGE BRANCHES
+
+
+
 function App() {
   return (
     <>
