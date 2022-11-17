@@ -10,6 +10,7 @@ import { faAngular,
      faReact,
      faGitAlt } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders';
+import Skills from './Skills';
 
 
 const About = () => {
@@ -22,6 +23,7 @@ const About = () => {
     }, []);
 
     const aboutArray = ['A','b','o','u','t',' ','m','e'];
+    const skillsArray = ['S','k','i','l','l','s'];
     return(
         <>
         <div className = 'container about-page'>
@@ -32,9 +34,10 @@ const About = () => {
                         strArray={aboutArray}
                         idx={15} />
                 </h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Hi! I'm Derek, currently an undergraduate computer engineering major at Boston University, class of 2026.</p>
+                <p>I have an intense passion for software engineering and data science and have constantly been trying to further improve my skills and become acquainted with more programming languages, theory, and experiences. I'm looking to further expand my portfolio as well as work within the industry, developing software.</p>
+                <p>As of now, my portfolio is on my GitHub &#40link in the bottom left&#41 where I have personal projects including this website as well as code and the link for my recently published artificial-intelligence research paper on neural networks titled: SV-Learn. </p>
+                <Skills letterClass={letterClass} skillsArray={skillsArray}/>
             </div>
 
             <div className='stage-cube-cont'>

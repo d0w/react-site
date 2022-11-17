@@ -46,7 +46,7 @@
     .text-zone {
         position: absolute;
         left: 10%;
-        top: 50%;
+        top: 40%;
         transform: translateY(-50%);
         width: 35%;
         vertical-align: middle;
@@ -86,6 +86,42 @@
                 opacity: 0.6;
             }
         }
+
+        h2 {
+            font-size: 33px;
+            font-family: 'Coolvetica';
+            color:#FFCACA;
+            font-weight: 400;
+            margin-top: 0;
+            position: relative;
+            display: block;
+            margin-top: 50px;
+            margin-bottom: 30px;
+            left: 10px;
+
+            &::before {
+                content: '<h2>';
+                font-family: 'La Belle Aurore';
+                font-size: 18px;
+                position: absolute;
+                margin-top: -10px;
+                left: -10px;
+                opacity: 0.6;
+                line-height: 18px;
+            }
+
+            &::after {
+                content: '<h2/>';
+                font-family: 'La Belle Aurore';
+                font-size: 18px;
+                position: absolute;
+                line-height: 18px;
+                left: -30px;
+                bottom: -20px;
+                margin-left: 20px;
+                opacity: 0.6;
+            }
+        }
         p {
             font-size: 18px;
             color: #fff;
@@ -105,6 +141,41 @@
                 animation-delay: 1.3s;
             }
         }
+        ul {
+            font-size: 18px;
+            color: #fff;
+            font-family: sans-serif;
+            // font-family: sans-serif;
+            font-weight: 300;
+            min-width: fit-content;
+            animation: pulse 2s;
+        }
+        .skills {
+            width: 100%;
+            top: 90%;
+            margin-top: 50px;
+
+            text-align: left;
+            ul {
+                display: absolute;
+                width: 50%;
+                list-style: none;
+            
+                li {
+                    // padding: 7px 0;
+                    display: block;
+                    // font-size: 15px;
+                    
+                    line-height: 16px;
+                    svg {
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+            }
+                
+        }
+        
     }
 
     .text-animate-hover {
