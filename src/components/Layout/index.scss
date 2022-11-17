@@ -46,7 +46,7 @@
     .text-zone {
         position: absolute;
         left: 10%;
-        top: 40%;
+        top: 45%;
         transform: translateY(-50%);
         width: 35%;
         vertical-align: middle;
@@ -150,31 +150,7 @@
             min-width: fit-content;
             animation: pulse 2s;
         }
-        .skills {
-            width: 100%;
-            top: 90%;
-            margin-top: 50px;
-
-            text-align: left;
-            ul {
-                display: absolute;
-                width: 50%;
-                list-style: none;
-            
-                li {
-                    // padding: 7px 0;
-                    display: block;
-                    // font-size: 15px;
-                    
-                    line-height: 16px;
-                    svg {
-                        width: 50px;
-                        height: 50px;
-                    }
-                }
-            }
-                
-        }
+        
         
     }
 
