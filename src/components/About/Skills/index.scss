@@ -6,20 +6,41 @@
 
     text-align: left;
     ul {
-        display: absolute;
-        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
         list-style: none;
+
     
         li {
             // padding: 7px 0;
-            display: block;
+            display: inline-block;
             // font-size: 15px;
             
             line-height: 16px;
-            svg {
+            padding: 10px;
+
+            .language-icon {
                 width: 50px;
                 height: 50px;
             }
+            
+            .circle {
+
+                width: 15px;
+                height: 15px;
+            }
+            
+            span {
+                position: absolute;
+                right: 35%;
+                left: auto;
+                margin-top: 15px;
+            }
+
+            
         }
     }
         

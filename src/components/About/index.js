@@ -36,7 +36,7 @@ const About = () => {
                 </h1>
                 <p>Hi! I'm Derek, currently an undergraduate computer engineering major at Boston University, class of 2026.</p>
                 <p>I have an intense passion for software engineering and data science and have constantly been trying to further improve my skills and become acquainted with more programming languages, theory, and experiences. I'm looking to further expand my portfolio as well as work within the industry, developing software.</p>
-                <p>As of now, my portfolio is on my GitHub &#40link in the bottom left&#41 where I have personal projects including this website as well as code and the link for my recently published artificial-intelligence research paper on neural networks titled: SV-Learn. </p>
+                <p>As of now, my portfolio is on my GitHub &#40;link in the bottom left&#41; where I have personal projects including this website as well as code and the link for my recently published artificial-intelligence research paper on neural networks titled: SV-Learn. </p>
                 <Skills letterClass={letterClass} skillsArray={skillsArray}/>
             </div>
 
