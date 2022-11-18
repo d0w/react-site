@@ -67,6 +67,22 @@ const Skills = () => {
                     </span>
                 </li>
             </ul>
+            <ul>
+                <li>
+                <FontAwesomeIcon className='language-icon' icon={faJava} color="#f89820"/>  
+                    <FontAwesomeIcon className='language-icon' icon={faJsSquare} color="#f89820"/> 
+                    <FontAwesomeIcon className='language-icon' icon={faHtml5} color="#f89820"/> 
+                    <FontAwesomeIcon className='language-icon' icon={faCss3} color="#f89820"/> 
+
+                    <span>
+                    <FontAwesomeIcon className='circle' icon={faCircleSolid} color="#FFF"/>
+                    <FontAwesomeIcon className='circle' icon={faCircleSolid} color="#FFF"/>
+                    <FontAwesomeIcon className='circle' icon={faCircle} color="#FFF"/>
+                    <FontAwesomeIcon className='circle' icon={faCircle} color="#FFF"/>
+                    <FontAwesomeIcon className='circle' icon={faCircle} color="#FFF" />
+                    </span>
+                </li>
+            </ul>
             
         </div>
         </>

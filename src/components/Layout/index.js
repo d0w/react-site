@@ -16,6 +16,7 @@ const Layout = () => {
                 <br />
                 <span className="bottom-tag-html">&lt;/html&gt;</span>
                 </span>
+                <span className="notice">Site is a work-in-progress so some features may not function or mobile devices may have poor support</span>
             </div>
         </div>
         

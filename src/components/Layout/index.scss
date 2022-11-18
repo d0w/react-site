@@ -25,6 +25,17 @@
     margin-left: -20px;
 }
 
+.notice {
+    color: #FFCACA;
+    position: absolute;
+    opacity: 0.6;
+    bottom: 0;
+    right: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
 .container {
     width: 100%;
     will-change: contents;
@@ -149,6 +160,13 @@
             font-weight: 300;
             min-width: fit-content;
             animation: pulse 2s;
+
+            span {
+                position: absolute;
+                right: 35%;
+                margin-top: 15px;
+            }
+          
         }
         
         

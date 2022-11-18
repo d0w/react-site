@@ -44,7 +44,7 @@ const Contact = () => {
                             idx={15} letterClass={letterClass}/>
                     </h1>
                     <p>
-                        This is a random description that has yet to be filled out...
+                        Feel free to contact me through this form or emailing me directly.
                     </p>
                     <div className='contact-form'>
                         <form ref={refForm} onSubmit={sendEmail}>
