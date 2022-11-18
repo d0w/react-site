@@ -36,6 +36,7 @@
         bottom: 0;
         transform: rotateZ(-90deg) !important;
         overflow: visible;
+        filter: drop-shadow(3px 5px 50px rgb(255, 202, 202 / 0.5));
     }
 
     .solid-logo {
@@ -74,12 +75,14 @@
     }
     75% {
         opacity: 1;
+        filter: drop-shadow(3px 5px 50px rgb(255, 202, 202 / 0.4));
     }
     77% {
         opacity: 0.5;
     }
     79% {
         opacity: 1;
+        filter: drop-shadow(3px 5px 50px rgb(255, 202, 202 / 0.4));
     }
     81% {
         opacity: 0.5;
