@@ -17,7 +17,7 @@ const Contact = () => {
             'service_i0t65pg',
             'template_4ycjpfp',
             refForm.current,
-            '' //INSERT PUBLIC API KEY HERE
+            'hCG94Rs6tKEzXEfNa', //INSERT PUBLIC API KEY HERE
         ).then (
             () => {
                 alert('Message successfully sent!');

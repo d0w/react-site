@@ -16,8 +16,8 @@ function App() {
     <Routes>
       <Route path="/react-site" element = {<Layout />}>
         <Route index element={<Home/>} />
-        <Route path="about" element={<About/>} />
-        <Route path="contact" element={<Contact/>} />
+        <Route path="/react-site/about" element={<About/>} />
+        <Route path="/react-site/contact" element={<Contact/>} />
       </Route>
     </Routes>
     </>
