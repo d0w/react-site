@@ -14,10 +14,10 @@ const Contact = () => {
         event.preventDefault();
 
         emailjs.sendForm(
-            'service_i0t65pg',
-            'template_4ycjpfp',
+            '', //service key
+            'template_4ycjpfp', // teplate key
             refForm.current,
-            'hCG94Rs6tKEzXEfNa', //INSERT PUBLIC API KEY HERE
+            '', //INSERT PUBLIC API KEY HERE
         ).then (
             () => {
                 alert('Message successfully sent!');
