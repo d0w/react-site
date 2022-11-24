@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-site/static/css/main.43b7a9a5.css",
-    "main.js": "/react-site/static/js/main.711c8b22.js",
+    "main.css": "/react-site/static/css/main.77bc19e0.css",
+    "main.js": "/react-site/static/js/main.37c6552c.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-site/static/js/787.a2cb61a6.chunk.js",
     "static/media/logo-s.png": "/react-site/static/media/logo-s.674f3e458f55b828a459.png",
     "static/media/helvetica-neu.ttf": "/react-site/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
@@ -10,12 +10,12 @@
     "static/media/CoolveticaRg-Regular.woff2": "/react-site/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "static/media/cpp.svg": "/react-site/static/media/cpp.5eb1abc418ed3dd0e1d217f2e5fb2d1e.svg",
     "index.html": "/react-site/index.html",
-    "main.43b7a9a5.css.map": "/react-site/static/css/main.43b7a9a5.css.map",
-    "main.711c8b22.js.map": "/react-site/static/js/main.711c8b22.js.map",
+    "main.77bc19e0.css.map": "/react-site/static/css/main.77bc19e0.css.map",
+    "main.37c6552c.js.map": "/react-site/static/js/main.37c6552c.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-site/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.43b7a9a5.css",
-    "static/js/main.711c8b22.js"
+    "static/css/main.77bc19e0.css",
+    "static/js/main.37c6552c.js"
   ]
 }
